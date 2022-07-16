@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammarly</title>
+    <link rel="shortcut icon" type="image" href="g.jpg">
+    <link rel="stylesheet" href= "grammerly.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <div class="container">
+        <header class="heading">
+            <h1>Real Time Character Counter</h1>
+            <p> Check your English Text for grammer, spelling ,and punctuation errors with real time character counter</p>
+        </header>
+        <div class="input">
+            <textarea name="input-text" id="input-text" maxlength="150" placeholder="Please write here"></textarea>
+            <button id="copy-text">COPY TEXT</button>
+        </div>
+        <div class="counter-container">
+            <p>Total Character: <span id="total-counter">0</span></p>
+            <p>Remaining Character: <span id="rem-counter">150</span></p>
+        </div>
+
+    </div>
+    <script src="grammerly.js"></script>
+</body>
+</html>
